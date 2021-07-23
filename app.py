@@ -58,7 +58,7 @@ def handle_message(event):
 def check_my_portfolio(event):
     portfolio = equity.get_portfolio()
     portfolio_datas = []
-
+    print(portfolio)
     # get data from each stock in portfolio
     for data in portfolio["data"]:
         # green color
